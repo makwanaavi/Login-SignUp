@@ -7,7 +7,7 @@ const UserSchema = new Schema({
     required: true,
   },
   email: {
-    email: String,
+    type: String,      // ✅ Yeh sahi hai
     required: true,
     unique: true,
   },
